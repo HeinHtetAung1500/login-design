@@ -1,0 +1,118 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.main{
+    width:100%;
+    height:100vh;
+    background-color:#e6edf2 ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container{
+   width:320px;
+   height:400px; 
+   background-color:#e6edf2 ;
+   border-radius: 20px;
+   box-shadow:5px 5px 6px rgba(0,0,0,0.1),
+              -5px -5px 6px rgba(255,255,255,0.6);
+
+position: relative;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+    }   
+
+       
+.login-container .logo{
+    width:80px;
+    height:80px;
+    background-color:#e7edf1 ;
+    border:3px solid ;
+    background-color:#e6edf2 ;
+    border-radius:50px;
+    position:absolute;
+    top:-40px;
+    left:50%;
+    transform: translateX(-50%);
+    box-shadow:5px 5px 6px rgba(0,0,0,0.1),
+    -5px -5px 6px rgba(255,255,255,0.6);
+
+}
+
+.login-container .title{
+    margin-top: 60px;
+    color:#4e4545;
+}
+
+
+.login-container .login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.login .ip-holder{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.login .ip-holder .ip-icon{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.login .ip-holder .ip{
+    width: 100%;
+    margin: 10px 25px;
+    border: none;
+    padding: 12px 25px 12px 45px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 6px rgba(0,0,0,0.1),
+    inset -5px -5px 6px rgba(255,255,255,0.6);
+    letter-spacing: 1.5px;
+}
+
+
+.login .ip-btn{
+    margin: 20px 25px;
+    border: none;
+    padding: 12px 25px;
+    background-color: #e6edf2;
+    box-shadow:5px 5px 6px rgba(0,0,0,0.1),
+    -5px -5px 6px rgba(255,255,255,0.6);
+border-radius: 30px;
+cursor: pointer;
+}
+
+.login .ip-btn:hover{
+    box-shadow: inset 5px 5px 6px rgba(0,0,0,0.1),
+    inset -5px -5px 6px rgba(255,255,255,0.6),
+   5px 5px 6px rgba(0,0,0,0.1),
+    -5px -5px 6px rgba(255,255,255,0.6);
+}
+
+.login-container .signup-text{
+    color: #616161;
+}
+
+.login-container .signup-text a{
+    text-decoration: none;
+    color: #212121;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-container .signup-text a:hover{
+    text-decoration: underline;
+
+}
